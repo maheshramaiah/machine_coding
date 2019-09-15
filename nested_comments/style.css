@@ -1,0 +1,17 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 100%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul li {
+  padding-left: 10px;
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#lists {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+#lists > li {
+  padding: 10px;
+  width: 200px;
+  border: 1px dashed;
+  margin: 0 0 10px 10px;
+  border-radius: 4px;
+}
+
+.title {
+  margin: 0;
+  border-bottom: 1px solid;
+}
+
+.item-title {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.list-items {
+  padding: 0;
+  list-style-type: none;
+}

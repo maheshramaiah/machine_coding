@@ -1,0 +1,61 @@
+<ul id="list">
+	<li id="0">
+		<span>name</span>
+		<span>comment</span>
+		<ul id="list-0">
+			<li id="00">
+				<span>name</span>
+				<span>comment</span>
+				<ul id="list-00">
+					<li id="000">
+						<span>name</span>
+						<span>comment</span>
+					</li>
+				</ul>
+			</li>
+			<li id="list-01">
+			</li>
+		</ul>
+	</li>
+	<li id="1">
+		<span>name</span>
+		<span>comment</span>
+	</li>
+</ul>
+
+[
+	{
+		id: '0',
+		name: '',
+		comment: '',
+		parent: null,
+		children: [
+			{
+				id: '00',
+				name: '',
+				comment: '',
+				parent: '0',
+				children: [
+					{
+						id: '000',
+						name: '',
+						comment: '',
+						parent: '00'
+					}
+				]
+			},
+			{
+				id: '01',
+				name: '',
+				comment: '',
+				parent: '0'
+			}
+		]
+	},
+	{
+		id: '1',
+		name: '',
+		comment: '',
+		parent: null
+	}
+]
