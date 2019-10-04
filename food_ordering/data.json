@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Test1",
+		"rating": "1.2",
+		"tags": ["Healthy", "Tasty"],
+		"address": "Bangalore"
+	},
+	{
+		"id": 2,
+		"name": "Test2",
+		"rating": "3.2",
+		"tags": ["Healthy", "Tasty1"],
+		"address": "Bangalore"
+	},
+	{
+		"id": 3,
+		"name": "Test3",
+		"rating": "4.2",
+		"tags": ["Healthy1", "Tasty"],
+		"address": "Bangalore"
+	},
+	{
+		"id": 4,
+		"name": "Test4",
+		"rating": "4.2",
+		"tags": ["Healthy1", "Tasty"],
+		"address": "Bangalore"
+	}
+]

@@ -1,0 +1,21 @@
+#items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#items > li {
+  padding: 10px;
+  border: 1px solid #000;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.toolbar {
+  display: flex;
+}
+
+.toolbar > div {
+  padding-right: 30px;
+}

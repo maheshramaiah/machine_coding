@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>
+		<div>
+			<div class="toolbar">
+				<div>
+					<input type="text" placeholder="Serach by name" id="search" />
+				</div>
+				<div>
+					<label>Sort by</label>
+					<select id="sortQuery" value="rating">
+						<option value="rating">Rating</option>
+					</select>
+					<select id="sortBy">
+						<option value="asc">Asc</option>
+						<option value="desc">Desc</option>
+					</select>
+				</div>
+				<div>
+					<label>Filter by tag:</label>
+					<select id="tags">
+						<option value="">All</option>
+					</select>
+				</div>
+			</div>
+
+			<ul id="items">
+			</ul>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
